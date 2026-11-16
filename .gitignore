@@ -1,0 +1,19 @@
+# clasp: scriptId を含むためコミットしない（テンプレートは .clasp.json.example）
+.clasp.json
+# Apps Script マニフェスト: ライブラリの libraryId を含むためコミットしない（テンプレートは appsscript.json.example）
+src/appsscript.json
+# clasp: 認証情報（プロジェクト直下に置いた場合）
+.clasprc.json
+
+# Node.js（clasp をローカルインストールする場合など）
+node_modules/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Claude Code の個人設定
+.claude/settings.local.json

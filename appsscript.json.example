@@ -1,0 +1,14 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "GoogleChatMessageSender",
+        "libraryId": "<GOOGLE_CHAT_MESSAGE_SENDER_LIBRARY_ID>",
+        "version": "4"
+      }
+    ]
+  }
+}
